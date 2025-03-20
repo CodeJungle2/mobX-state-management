@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.d53c356e.js",
-    "static/js/453.64ef72bd.chunk.js": "/static/js/453.64ef72bd.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.d53c356e.js.map": "/static/js/main.d53c356e.js.map",
-    "453.64ef72bd.chunk.js.map": "/static/js/453.64ef72bd.chunk.js.map"
+    "main.css": "/mobX-state-management/static/css/main.e6c13ad2.css",
+    "main.js": "/mobX-state-management/static/js/main.82390926.js",
+    "static/js/453.64ef72bd.chunk.js": "/mobX-state-management/static/js/453.64ef72bd.chunk.js",
+    "index.html": "/mobX-state-management/index.html",
+    "main.e6c13ad2.css.map": "/mobX-state-management/static/css/main.e6c13ad2.css.map",
+    "main.82390926.js.map": "/mobX-state-management/static/js/main.82390926.js.map",
+    "453.64ef72bd.chunk.js.map": "/mobX-state-management/static/js/453.64ef72bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d53c356e.js"
+    "static/js/main.82390926.js"
   ]
 }
