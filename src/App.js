@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// App.jsx
+import React from "react";
+import CounterDisplay from "./pages/CounterDisplay";
+import CounterControls from "./pages/CounterControls";
+import CounterHistory from "./pages/CounterHistory";
+import ThemeToggle from "./pages/ThemeToggle";
+import { observer } from "mobx-react-lite";
+import themeStore from "./store/ThemeStore";
+import Todo from "./pages/Todo/Todo";
 
-function App() {
+const App = observer(() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "50px",
+        background: themeStore.theme === "dark" ? "#333" : "#fff",
+        color: themeStore.theme === "dark" ? "#fff" : "#000",
+        padding: "20px",
+      }}
+    >
+      <ThemeToggle />
+      <Todo />
+      <CounterDisplay />
+      <CounterControls />
+      <CounterHistory />
     </div>
   );
-}
-
+});
 export default App;
